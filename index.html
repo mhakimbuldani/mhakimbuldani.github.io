@@ -5,71 +5,125 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BIODATA</title>
-    <style>
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #333;
-        }
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,300;1,400&display=swap" rel="stylesheet">
+  </head>
 
-        li {
-            float: left;
-        }
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light shadow-sm">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold text-dark" aria-current="page" href="index.html">Biodata</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold text-dark" aria-current="page" href="portofolio.html">Portofolio</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<br>
+  <!-- hero -->
+  <div id="hero" class="container d-flex flex-column align-items-center justify-content-center mb-5">
+    <img src="foto aing.jpg" class="image-hero rounded-circle" alt="">
+    <br>
+    <br>
+    <h1 class="title fw-bold">Muhammad Hakim Buldani</h1>
+    <p class="subtitle">Political Analytics</p>
+    <i class="bi bi-arrow-down"></i>
+  </div>
 
-        li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
+  <!-- about me -->
+  <div class="container mb-5">
+      <h2 class="text-center mb-3">About me</h2>
+      <br>
+        <div class="row">
+          <div class="col-6">
+            <img src="./Assets/Image/upnvj logo.png" class="shadow rounded w-100" alt="">
+          </div>
+          <div class="col-6">
+            <p class="text-about">Nama saya Muhammad Hakim Buldani. Saya merupakan mahasiswa tingkat tiga Program Studi Ilmu Politik Universitas Pembangunan Nasional Veteran Jakarta.
+                Saya memiliki minat terhadap isu-isu politik, pendidikan, dan sosial masyarakat, termasuk kebijakan publik, studi perkotaan, hubungan masyarakat, dan administrasi publik.
+                Selain itu, saya adalah orang yang tangguh, kritis, dan berorientasi pada hasil.</p>
+          </div>    
+      </div>
+  </div>
+<br>
+  <!-- Skill -->
+  <div class="container mb-5">
+    <h2 class="text-center mb-3">My Skill</h2>
+    <br>
+    <div class="row">
+        <div class="col-3">
+            <div class="card">
+                <img src="./Assets/Image/public policy.jfif" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Analisis Kebijakan Publik</h5>
+                    <p class="card-text">Menganalisis kebijakan yang dapat berguna untuk pengambilan keputuasan di sektor publik, dan karenanya dibutuhkan oleh para politisi, konsultan, dan pengambil keputusan di pemerintah
+                        an.</p>
+                    <a href="#" class="btn btn-primary w-100">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card">
+                <img src="./Assets/Image/office.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Microsoft Office</h5>
+                    <p class="card-text">Word, Excel, Power Point.</p>
+                    <a href="#" class="btn btn-primary w-100">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card">
+                <img src="./Assets/Image/research.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Research</h5>
+                    <p class="card-text">Case Study, Narrative Research, Phenomenological Research, Grounded</p>
+                    <a href="#" class="btn btn-primary w-100">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card">
+                <img src="./Assets/Image/Menulis.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Writing</h5>
+                    <p class="card-text">Content Research, Political Jurnal.</p>
+                    <a href="#" class="btn btn-primary w-100">Go somewhere</a>
+                </div>
+              </div>
+          </div>         
+      </div>
+  </div>
+  <br>
 
-        li a:hover {
-            background-color: #111;
-        }
-    </style>
-</head>
-<body>
-    <div class="nav">
-        <ul>
-            <li><a href="">Biodata</a></li>
-            <li><a href="portofolio.html">Portofolio</a></li>
-        </ul>
-    </div>
-</body>
-</html>
-<html>
-    <body>
-        <h1><b>MUHAMMAD HAKIM BULDANI</b></h1>
-        <p>+62 813-1621-5808 | mhakimbuldani@gmail.com | <a href="www.linkedin.com/in/mhakimbuldani">Linkedin</a></p>
-        <img src="profpic.jpg" alt="Muhammad Hakim Buldani" widht="300" height="400">
-        <p><b>Nama saya Muhammad Hakim Buldani. Saya merupakan mahasiswa tingkat tiga Program Studi Ilmu Politik Universitas Pembangunan Nasional Veteran Jakarta.<br> Saya memiliki minat terhadap isu-isu politik, pendidikan, dan sosial masyarakat, termasuk kebijakan publik, studi perkotaan, hubungan masyarakat, dan administrasi publik.<br> Selain itu, saya adalah orang yang tangguh, kritis, dan berorientasi pada hasil.</b></p>
-        <h3>PENDIDIKAN</h3>
-        <ul>
-            <li>2017-2020 SMAN 1 Cianjur</li>
-            <li>2020-2024 Universitas Pembangunan Nasional Veteran Jakarta<br><i>S1-Ilmu Politik, 3,71/4.00</i></li>
-        </ul>
-        <h3>PENGALAMAN ORGANISASI</h3>
-        <h4>Cianjur Grand University Days<br><i>(Wakil Ketua Umum)</i></h4>
-        <ul>
-            <li>Membersamai ketua umum dalam memimpin organisasi mahasiswa daerah yang bergerak di bidang pendidikan dan sosial dengan jumlah anggota sebanyak 142 orang.
-            <li>Mengawasi 3 tim yang masing-masing terdiri dari 15 orang dalam bidang pendidikan, media informasi, dan sosial masyarakat.</li>
-            <li>Memimpin proyek besar organisasi</li>
-            <li>Membangun relasi dengan berbagai instansi pemerintah dan non pemerintah</li>
-        </ul>
-        <h4>Patungan Kita<br><i>(Hubungan Masyarakat)</i></h4>
-        <ul>
-            <li>Meninjau dan menganalisis sebuah kesepakatan terkait hubungan dan kemitraan eksternal termasuk kesepahaman (MOU)</li>
-            <li>Melaksanakan live report dari hasil donasi para donatur</li>
-            <li>Bertanggungjawab atas hubungan organisasi dengan pihak donatur</li>
-        </ul>
-        <h3>KETERAMPILAN DAN MINAT</h3>
-        <ul>
-            <li><b>Hard Skills:</b> Project Management, Event Management, Jurnal, Research, Analisis Kebijakan, Analisis Sosial.</li>
-            <li><b>Soft Skills:</b> Public Speaking, Teamwork, Problem Solving, Presentasi, Administrasi, Microsoft Office.</li>
-            <li><b>Minat:</b> Politik Elektoral, Partai Politik, Kebijakan Publik, Politik Perkotaan, Isu Pendidikan, dan Sosial Masyarakat.</li>
-        </ul>
-    </body>
+  <!-- footer -->
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-muted">&copy; 2022 Company, Inc</span>
+      </div>
+  
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/kimbuldani"><i class="bi bi-instagram"></i></svg></a></li>
+        <li class="ms-3"><a class="text-muted" href="https://github.com/mhakimbuldani/web-basic-seal"><i class="bi bi-github"></i></svg></a></li>
+      </ul>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>   
+
 </html>
